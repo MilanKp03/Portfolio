@@ -1,0 +1,140 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.4rem;
+   overflow-x: hidden;
+  /* overflow-y: hidden;*/
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+p {
+   margin: 0.75rem 0;
+}
+
+/*Utility Classes*/
+
+.container {
+   max-width: 1140px;/*velicina starince ne koristiti nista drugo */
+   margin: 0 auto 0 auto;/* stranica bude u sredini*/
+}
+
+.bg-gray {
+
+   background: #333;
+}
+
+.p-1 {
+   padding: 1.5rem 0;
+} 
+
+.med-size { font-size: 2rem; }
+
+/* NAVBAR */
+
+#navbar {
+   
+   display: flex;
+   justify-content: space-between;
+}
+
+#navbar ul {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   z-index: 1;
+}
+
+#navbar ul li {
+   padding: 0.75rem;
+  
+}
+#navbar ul li a {
+   margin: 0 0.25rem;
+   font-size: 1.05rem;
+   padding: 0.75rem;
+  
+}
+
+#navbar ul li a:hover {
+   background: #8eade6;
+   border-radius: 5px;
+}
+
+#navbar ul li a ion-icon { font-size: 1.7rem; }
+
+/* HEADER */
+
+/*#header {
+   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("/img/pic1.png") no-repeat center/cover;
+   height: 100vh;
+   margin-top: -63px;
+   z-index: -1; 
+   
+  width: 100%;
+  
+}
+*/
+
+#header {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/pic1.png);/*postavljane slike u css */
+    background-size: cover;/* da slike zauzima ceo div ili u ovom slucaju header */
+    background-position: center; /* da slika bude centrirana*/
+    height: 100vh;
+    background-attachment: fixed;
+    margin-top: -65px;
+}
+
+
+#header h1 {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   justify-content: center;
+   align-items: center; 
+   height: 100%;
+   width: 75%;
+   color: #fff;
+   line-height: 3rem;
+   letter-spacing: 0.1rem;
+   font-size:3rem;
+   
+}
+
+
+/*Section: About*/
+
+#about .container .about-items {
+   display: flex;
+}
+
+#about div {
+   flex: 1;
+}
+
+#about .container .about-img {
+   background: url("../img/pic2.jpg") center no-repeat ;
+   height: 45vh;
+   
+}
+
+#about .container h2 {
+   padding: 1rem;
+   text-align: center;
+   
+   
+      
+   border-bottom: 1px solid #8eade6 ;
+}
+
+#about .container p {
+   padding: 1rem;
+}
