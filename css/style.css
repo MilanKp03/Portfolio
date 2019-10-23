@@ -138,3 +138,84 @@ p {
 #about .container p {
    padding: 1rem;
 }
+
+/*Section: Project's*/
+#projects {
+   background: rgb(243, 243, 243);
+}
+
+#projects .items {
+   display: flex;
+   justify-content: space-between;
+}
+
+#projects .group-one {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row wrap;
+  /* align-items: stretch;*/
+}
+
+#projects .group-two {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row wrap;
+  /* align-items: stretch;*/
+}
+
+#projects .group-one .one {
+   width: 15rem;
+   height: 15rem;
+   flex: 1 100%;
+   margin: 1rem 1rem;
+    background: url("../img/pic-site.png") no-repeat center/cover ;
+   
+   
+}
+
+#projects .group-one .two {
+    width: 10rem;
+   height: 10rem;
+   flex: 1;
+    margin: 1rem 1rem;
+    background: url("../img/pic-site.png") no-repeat center/cover ;
+  
+}
+
+#projects .group-one .three {
+   width: 10rem;
+   height: 10rem;
+   flex: 1;
+    margin: 1rem 1rem;
+    background: url("../img/pic-site.png") no-repeat center/cover ;
+   
+}
+
+#projects .group-two .four {
+    width: 15rem;
+   height: 15rem;
+    flex: 1 100%;
+    margin: 1rem 1rem;
+    background: url("../img/pic-site.png") no-repeat center/cover ;
+}
+
+#projects .group-two .five {
+   width: 10rem;
+   height: 10rem;
+   flex: 1;
+    margin: 1rem 1rem;
+    background: url("../img/pic-site.png") no-repeat center/cover ;
+}
+
+#projects .group-two .six {
+   width: 10rem;
+   height: 10rem;
+   flex: 1;
+    margin: 1rem 1rem;
+    background: url("../img/pic-site.png") no-repeat center/cover ;
+}
+
+#projects h2 {
+   text-align: center;
+   padding: 1rem;
+}
