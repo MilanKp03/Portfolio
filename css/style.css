@@ -71,6 +71,18 @@ p {
 
 #navbar ul li a ion-icon { font-size: 1.7rem; }
 
+#navbar #menu-icon {
+display: none;
+font-size: 1.7rem;
+
+padding:1rem;
+
+}
+#navbar #menu-icon:hover {
+   background: #8eade6;
+   border-radius: 5px;
+  
+}
 /* HEADER */
 
 /*#header {
@@ -106,6 +118,7 @@ p {
    line-height: 3rem;
    letter-spacing: 0.1rem;
    font-size:3rem;
+   margin: 0;
    
 }
 
@@ -124,6 +137,12 @@ p {
 
 #about .container .about-items .about-img {
    flex: 1;
+   margin-top:4rem ;
+}
+
+#about p {
+   padding: 0 1rem;
+   text-align: center;
 }
 
 #about .container .about-img {
@@ -134,10 +153,7 @@ p {
 
 #about .container h2 {
    padding: 1rem;
-   text-align: center;
-   
-   
-      
+   text-align: center;  
    border-bottom: 1px solid #8eade6 ;
 }
 
@@ -151,6 +167,12 @@ p {
 #projects {
    background: rgb(243, 243, 243);
    border: 0px none ;
+}
+
+#projects h2 {
+   padding: 1rem;
+   text-align: center;  
+   border-bottom: 1px solid #8eade6 ;
 }
 
 #projects .items {

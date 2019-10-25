@@ -9,6 +9,18 @@ function myFunction() {
    myWindow.close();   // Closes the new window
  }
 
+ function myFunctionMenu() {
+  var x = document.getElementById("menu-opt");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
+
+
  /*smooth scroling*/
     
     // Select all links with hashes

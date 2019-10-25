@@ -1,0 +1,8 @@
+ #navbar ul  {
+   display: none;
+}
+
+#navbar #menu-icon {
+   display: flex;
+   justify-content: end;
+}

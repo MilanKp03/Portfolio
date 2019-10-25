@@ -7,20 +7,25 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
    <title>Web portfolio</title>
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+   <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+  
 </head>
 <body id="home">
    <nav id="navbar">
       <ul>
          <li><a href="https://github.com/MilanKp03" target= "_blank"><ion-icon name="logo-github" ></ion-icon></a></li>
-         <li><a href="https://www.linkedin.com/in/milan-krkobabic-506132172/" target="blank"><ion-icon name="logo-linkedin" ></ion-icon></li></a>
+         <li><a href="https://www.linkedin.com/in/milan-krkobabic-506132172/" target="blank"><ion-icon name="logo-linkedin" ></ion-icon></a></li>
       </ul>
 
-      <ul>
+      <ul id="menu-opt">
          <li><a href="#home">Home</a></li>
          <li><a href="#about">About Me</a></li>
          <li><a href="#projects">Project's</a></li>
-         <li><a href="#">Contact Me</a></li>
+        
       </ul>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunctionMenu()" id="menu-icon"><ion-icon name="menu"></ion-icon></a>
    </nav>
 
    <header id="header" title="pictureOfCode">
@@ -40,7 +45,10 @@
       </p>
       
       <h2>Core qualification </h2>
-     <p> - Strong knowledge of  core Java and OOP design principals.</p>- Solid knowledge in MySQL data base management , Java Servlets, Threads, Functional programming. <p>- Basic knowledge in Hibernate , Maven and Spring  - Familiar with: GitHub , GitKraken , NetBeans , Eclipse , Scene Builder</p>
+     <p> - Strong knowledge of  core Java and OOP design principals.</p>
+      <p>-Solid knowledge in MySQL data base management , Java Servlets, Threads, Functional programming.
+         </p>
+          <p>- Basic knowledge in Hibernate , Maven and Spring  - Familiar with: GitHub , GitKraken , NetBeans , Eclipse , Scene Builder</p>
      <p> - Other technologies that I use:HTML , CSS , Bootstrap and a bit of JS
       </p>
       <div class="button_cont" align="center"><a class="example_e" href="https://drive.google.com/file/d/1vWwc68OgFx9P0SeEjgY_sYMJoPgfFLzN/view?usp=sharing" target="_blank" rel="nofollow noopener">Download CV</a></div>
