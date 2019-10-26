@@ -1,8 +1,43 @@
  #navbar ul  {
    display: none;
+   flex:1;
+   background: #333;
 }
+
+
 
 #navbar #menu-icon {
    display: flex;
-   justify-content: end;
+   /*justify-content: end;*/
+   background: #333;
+}
+
+#navbar #menu-icon:hover {
+   background: #333;
+   
+  
+}
+#navbar ul li a:hover {
+   background: #333;
+  
+}
+#navbar #menu-icon:hover {
+   background: #333;
+  
+  
+}
+
+#about .container .about-items {
+   display: flex;
+   flex-direction: column;
+   
+}
+#about .container .about-items .about-img {
+  display: none;
+}
+
+#projects .items {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
 }

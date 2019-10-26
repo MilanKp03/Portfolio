@@ -41,10 +41,14 @@ p {
 /* NAVBAR */
 
 #navbar {
-   
+    
    display: flex;
    justify-content: space-between;
+   background: rgb(20, 20, 20);
+   
 }
+
+
 
 #navbar ul {
    display: flex;
@@ -74,7 +78,6 @@ p {
 #navbar #menu-icon {
 display: none;
 font-size: 1.7rem;
-
 padding:1rem;
 
 }
@@ -85,16 +88,7 @@ padding:1rem;
 }
 /* HEADER */
 
-/*#header {
-   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("/img/pic1.png") no-repeat center/cover;
-   height: 100vh;
-   margin-top: -63px;
-   z-index: -1; 
-   
-  width: 100%;
-  
-}
-*/
+
 
 #header {
    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/pic1.png);/*postavljane slike u css */
@@ -102,7 +96,7 @@ padding:1rem;
     background-position: center; /* da slika bude centrirana*/
     height: 100vh;
     background-attachment: fixed;
-    margin-top: -65px;
+  /*  margin-top: -65px;*/
 }
 
 
