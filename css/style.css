@@ -73,6 +73,11 @@ p {
    border-radius: 5px;
 }
 
+#navbar ul li a:active {
+   background: #4e84e9;
+   border-radius: 5px;
+}
+
 #navbar ul li a ion-icon { font-size: 1.7rem; }
 
 #navbar #menu-icon {
@@ -164,9 +169,17 @@ padding:1rem;
 }
 
 #projects h2 {
+   display: block;
+   width: 15rem;
+  
    padding: 1rem;
    text-align: center;  
    border-bottom: 1px solid #8eade6 ;
+   
+}
+#projects #center {
+  display: flex;
+  justify-content: space-around;
 }
 
 #projects .items {
@@ -305,9 +318,58 @@ padding:1rem;
 #footer .items-footer a:hover {
    background: #8eade6;
    border-radius: 5px;
+   
+}
+#footer .items-footer a:active {
+   background: #4e84e9;
+   border-radius: 5px;
+   
+}
+#footer #mail {
+   font-size: 90%;
 }
 
 
+/*tooltip for mail*/
+
+.tooltip {
+   position: relative;
+   display: inline-block;
+ 
+ }
+ 
+ .tooltip .tooltiptext {
+   visibility: hidden;
+   width: 120px;
+   background-color: #555;
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 125%;
+   left: 50%;
+   margin-left: -60px;
+   opacity: 0;
+   transition: opacity 0.3s;
+ }
+ 
+ .tooltip .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #555 transparent transparent transparent;
+ }
+ 
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+   opacity: 1;
+ }
 
 /*Dwonload button*/
 

@@ -60,3 +60,14 @@ $('a[href*="#"]')
   }
 });
   
+
+//copying to clipboard
+new Clipboard('.copy-text', {
+  text: function (trigger) {
+      return trigger.getAttribute('value');
+  }
+});
+
+
+
+    
